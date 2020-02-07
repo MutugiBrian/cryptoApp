@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 void main() async {
   
   List currencies = await getCurrencies();
-  print(currencies);
   runApp(new MyApp(currencies));
 }
 
